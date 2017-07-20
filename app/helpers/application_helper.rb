@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end 
 	end
+
+  def copyright_generator
+    StenViewTool::Renderer.copyright 'Braden Sten', 'All right reserved'
+  end
 end
