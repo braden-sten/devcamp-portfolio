@@ -198,7 +198,7 @@ body {
   width: auto;
   height: auto;
   z-index: -100;
-  -webkit-transform: translateX(-50% ) translateX(-50%);
+  -webkit-transform: translateX(-50% ) translateY(-50%);
   transform: translateX(-50% ) translateY(-50%);
   background: image-url('brighton_over_heber.jpeg') no-repeat;
   background-size: cover;
