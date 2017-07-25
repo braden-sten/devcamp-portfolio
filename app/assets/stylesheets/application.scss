@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "gritter";
 
 /*
  * Globals
@@ -164,14 +165,13 @@ body {
  * Custom Styles
  */
 
- .card-block {
- color: black;
- text-align: left;
- }
+.card-block {
+  color: black;
+  text-align: left;
+}
 
 .auth-links a {
   color: black;
-
 }
 
 .register-text {
@@ -198,8 +198,8 @@ body {
   width: auto;
   height: auto;
   z-index: -100;
-  -webkit-transform: translateX(-50% ) translateY(-50%);
-  transform: translateX(-50% ) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background: image-url('brighton_over_heber.jpeg') no-repeat;
   background-size: cover;
 }
