@@ -200,7 +200,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('brighton_over_heber.jpeg') no-repeat;
+  background: image-url('night-chair2.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -219,4 +219,19 @@ body {
 
 .tech-news > .card {
   padding: 30px;
+}
+
+#tech-news-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('circut-board.jpg') no-repeat;
+  background-size: cover;
 }
